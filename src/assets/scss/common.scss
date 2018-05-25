@@ -1,0 +1,72 @@
+/* Main content */
+.content-wrapper,
+.layout-region.panel-body {
+  background: #ecf0f5;
+}
+
+/* Center modal dialog */
+.content .modal.in .modal-dialog {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.modal-header {
+  background-color: #222d32;
+  color: white;
+  box-shadow: 0 3px 3px -1px gray;
+  border-bottom: 0;
+
+  .close {
+    color: white;
+    opacity: 1;
+  }
+}
+
+.modal-body {
+  max-height: 72vh;
+}
+
+
+/* Form */
+.form-control {
+  border-radius: 4px;
+}
+
+
+section.content {
+  padding: 0;
+  overflow: auto;
+  height: 100%;
+  position: relative;
+}
+
+.action-btns .btn {
+  margin: 15px 15px 0 0;
+}
+
+.close span {
+  display: inline-block;
+  min-width: 21px;
+}
+
+body {
+  height: 100vh;
+  font-size: 12px;
+}
+
+/* Button */
+.btn {
+    margin: 0 4px;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.btn-group > .btn:first-child {
+  margin-right: 0;
+  margin-left: 4px;
+}
+

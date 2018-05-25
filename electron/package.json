@@ -1,0 +1,6 @@
+{
+    "name": "lapis_demo",
+    "version": "0.10.0",
+    "description": "Application for Lapis Demo",
+    "main": "main.js"
+}

@@ -1,0 +1,34 @@
+/* AdminLTE sidebar */
+$sidebar-width: 180px;
+.content-wrapper,
+.main-footer,
+.main-header .navbar {
+  margin-left: $sidebar-width;
+}
+.main-header .logo,
+.main-sidebar,
+.sidebar-menu {
+  width: $sidebar-width;
+}
+@media (max-width: 767px) {
+  .main-header .logo {
+    width: 100%;
+  }
+  .main-header .navbar,
+  .content-wrapper,
+  .main-footer {
+    margin-left: 0;
+  }
+  .sidebar-open .content-wrapper,
+  .sidebar-open .main-footer {
+    transform: translate($sidebar-width, 0);
+  }
+  .main-sidebar {
+    transform: translate(-$sidebar-width, 0);
+  }
+}
+@media (min-width: 768px) {
+  .sidebar-collapse .main-sidebar {
+    transform: translate(-$sidebar-width, 0);
+  }
+}
